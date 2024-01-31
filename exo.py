@@ -1,2 +1,5 @@
 nbr = input("Entrez un nombre\n")
-print(nbr)
+i = 0
+while i <= 10:
+    print(int(nbr) * i)
+    i += 1
